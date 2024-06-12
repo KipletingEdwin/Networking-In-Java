@@ -15,9 +15,15 @@ public class Main {
         //getHost Address method
         System.out.println("Host Address : " + inetAddress.getHostAddress());
         //isAnyLocalAddress method
-        System.out.println("isLocalAddress : " + inetAddress.isAnyLocalAddress());
+        System.out.println("isAnyLocalAddress : " + inetAddress.isAnyLocalAddress());
         //isLinkLocalAddress method
-        System.out.println("isLocalAddress : " + inetAddress.isLinkLocalAddress());
+        System.out.println("isLinkLocalAddress : " + inetAddress.isLinkLocalAddress());
+        //isLoopbackAddress
+        System.out.println("isLoopbackAddress : " + inetAddress.isLoopbackAddress());
+        //isSiteLocalAddress
+        System.out.println("isSiteLocalAddress : " + inetAddress.isSiteLocalAddress());
+        //hashCode() method
+        System.out.println("haschCode : " + inetAddress.hashCode());
 
     }
 }
