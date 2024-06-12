@@ -14,6 +14,10 @@ public class Main {
         System.out.println("Address : " + Arrays.toString(inetAddress.getAddress()));
         //getHost Address method
         System.out.println("Host Address : " + inetAddress.getHostAddress());
+        //isAnyLocalAddress method
+        System.out.println("isLocalAddress : " + inetAddress.isAnyLocalAddress());
+        //isLinkLocalAddress method
+        System.out.println("isLocalAddress : " + inetAddress.isLinkLocalAddress());
 
     }
 }
